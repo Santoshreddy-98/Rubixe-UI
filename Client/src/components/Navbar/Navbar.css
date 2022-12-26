@@ -1,0 +1,39 @@
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+ }
+ .nav-fixer{
+     background-color: black;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     position: fixed;
+     z-index: 2;
+     width: 100%;
+ }
+ 
+ .nav-left img{
+    height: 50px;
+    margin: 10px;
+ }
+ 
+ .nav-right-list{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+ .li-link{
+     color: white;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+ }
+ 
+ li{
+     margin:0 10px;
+     list-style: none;
+ }
+ 
